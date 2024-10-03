@@ -10,7 +10,7 @@ Indoor localization using a modified trilateration algorithm builds on the basic
   python MTA.py
 ```
 
-### Next Steps.
+### Next Steps:
 Building the chip A. (probably bluetooth transmitter or simply my phone) building the machines using esp32 with bluetooth module. Than test precision and change the algorithm accordingly.
 If you think there are some faults or you just want to suggest or help in the matter feel free to do so, it would be much appreciated.
 
