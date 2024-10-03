@@ -5,7 +5,8 @@ Indoor localization using a modified trilateration algorithm builds on the basic
 ```bash
   python3 -m venv venv
   source venv/bin/activate
-  python 
+  pip install -r requirements.txt
+  python MTA.py
 ```
 
 ## How Trilateration Works
