@@ -1,6 +1,7 @@
 # Indoor localization using a modified trilateration algorithm
 Indoor localization using a modified trilateration algorithm builds on the basic principles of trilateration but adapts it for more precise tracking in indoor environments, where factors like walls, interference, and non-ideal signal propagation must be considered. In an indoor setting, signals may not behave perfectly, so modifications or enhancements to the trilateration process are often necessary to improve accuracy.
 
+
 ## How to make it work:
 ```bash
   python3 -m venv venv
@@ -8,6 +9,10 @@ Indoor localization using a modified trilateration algorithm builds on the basic
   pip install -r requirements.txt
   python MTA.py
 ```
+
+### Next Steps.
+Building the chip A. (probably bluetooth transmitter or simply my phone) building the machines using esp32 with bluetooth module. Than test precision and change the algorithm accordingly.
+If you think there are some faults or you just want to suggest or help in the matter feel free to do so, it would be much appreciated.
 
 ## How Trilateration Works
 ### In trilateration:
